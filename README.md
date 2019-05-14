@@ -30,6 +30,8 @@ Obs: Este repositório é uma cópia do [React Native - Módulo 3](https://githu
 
   - [Execução do Projeto](#execução-do-projeto)
 
+  - [Observações](#observações)
+
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
@@ -63,6 +65,30 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga a Execução de Projeto.
+
+### Observações
+
+Para configurar o ícone, nome da aplicação, splashscreen, id do pacote dentro do iOS, execute os seguintes procedimentos:
+
+- Clique com o botão direito na pasta `ios` e selecione `Reveal in Finder`
+
+- Encontre o arquivo de extensão `xcodeproj` e abra-o
+
+- Ao clicar no ícone de menu e em `Targets`, em todos os targets abaixo, na seção `Signing`, terá que ativar a opção `Automatically manage signing` e selecionar o `Team` desejado
+
+- Em `Images.xcassets` e em `AppIcon`, coloque todas as imagens referentes ao texto descritivo
+
+- Em `LaunchScreen.xib`, faça a splashscreen como desejado
+
+- Clique no arquivo do `xcodeproj` e aparecerá a guia `General`
+
+- Na guia `General`:
+
+  - Em `Display Name`, dê um nome para a aplicação
+
+  - Em `Bundle Identifier`, dê um nome ao pacote
+
+  - Em `Deployment Info`, nas opções de `Device Orientation`, é possível escolher apenas a opção `Portrait`, desabilitando as demais
 
 ## Utilizados no Projeto
 
