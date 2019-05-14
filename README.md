@@ -12,6 +12,8 @@
 
 Aplicação Gitmark usando React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, React Navigation, Color, Redux, Redux-Saga, Ducks e Reactotron.
 
+Obs: Este repositório é uma cópia do [React Native - Módulo 3](https://github.com/osvaldokalvaitir/react-native-modulo3) para realização de deploy e entrega contínua.
+
 ## Índice
 
 - [Capturas de Tela](#capturas-de-tela)
@@ -113,5 +115,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
       - Busca dados de um repositório pertencente a um usuário
 
 ### Ferramentas
+
+- [Ape Tools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/icon/apetools.md)
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
