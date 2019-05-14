@@ -114,6 +114,8 @@ Para configurar o ícone, nome da aplicação, splashscreen, id do pacote dentro
 
 - [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
 
+- [React Native Module for CodePush](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-code-push.md)
+
 - [React Navigation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation.md)
 
 - [React Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-redux.md)
