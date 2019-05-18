@@ -5755,6 +5755,13 @@ react-native-gesture-handler@^1.2.1:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
+react-native-onesignal@^3.2.13:
+  version "3.2.13"
+  resolved "https://registry.yarnpkg.com/react-native-onesignal/-/react-native-onesignal-3.2.13.tgz#02f10dbd9cfacd3dc2c8254200f824bf4ff92093"
+  integrity sha512-Vq8Bdav8Luwal8XtB2xulO82+pw/Xzfr4RnwFhJ+MJy+3fqsuUU+zkyokEEFz3mAWO34t4YqIUyfQ8Q+XaQDBg==
+  dependencies:
+    invariant "^2.2.2"
+
 react-native-safe-area-view@^0.13.0:
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.13.2.tgz#fd8245182cfa3240dcc679b010cff43ad32cecb1"

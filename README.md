@@ -30,8 +30,6 @@ Obs: Este repositório é uma cópia do [React Native - Módulo 3](https://githu
 
   - [Execução do Projeto](#execução-do-projeto)
 
-  - [Observações](#observações)
-
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
@@ -56,39 +54,15 @@ Nesta tela estão todos os repositórios do GitHub favoritados pelo usuário, po
 
 ### Configurações Iniciais
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga as Configurações Iniciais.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configurações Iniciais`.
 
 ### Instalação do Projeto
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga a Instalação de Projeto.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
 
 ### Execução do Projeto
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga a Execução de Projeto.
-
-### Observações
-
-Para configurar o ícone, nome da aplicação, splashscreen, id do pacote dentro do iOS, execute os seguintes procedimentos:
-
-- Clique com o botão direito na pasta `ios` e selecione `Reveal in Finder`
-
-- Encontre o arquivo de extensão `xcodeproj` e abra-o
-
-- Ao clicar no ícone de menu e em `Targets`, em todos os targets abaixo, na seção `Signing`, terá que ativar a opção `Automatically manage signing` e selecionar o `Team` desejado
-
-- Em `Images.xcassets` e em `AppIcon`, coloque todas as imagens referentes ao texto descritivo
-
-- Em `LaunchScreen.xib`, faça a splashscreen como desejado
-
-- Clique no arquivo do `xcodeproj` e aparecerá a guia `General`
-
-- Na guia `General`:
-
-  - Em `Display Name`, dê um nome para a aplicação
-
-  - Em `Bundle Identifier`, dê um nome ao pacote
-
-  - Em `Deployment Info`, nas opções de `Device Orientation`, é possível escolher apenas a opção `Portrait`, desabilitando as demais
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto`.
 
 ## Utilizados no Projeto
 
@@ -122,6 +96,8 @@ Para configurar o ícone, nome da aplicação, splashscreen, id do pacote dentro
 
 - [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
 
+- [react-native-onesignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-onesignal.md)
+
 - [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
 
 - [reactotron-redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux.md)
@@ -146,4 +122,24 @@ Para configurar o ícone, nome da aplicação, splashscreen, id do pacote dentro
 
 - [Ape Tools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/icon/apetools.md)
 
+- [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md)
+
+Para configurar as notificações push, clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md) e siga `Criar um app no OneSignal`.
+
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
+
+###### Aplicativo Android
+
+- [Firebase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/firebase.md)
+
+###### Aplicativo iOS
+
+- [Apple Developer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md)
+
+Para gerar o App ID e o certificado para desenvolvimento e produção, clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md) e siga `Criar um app no Apple Developer`.
+
+- [The Provisionator](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/the-provisionator.md)
+
+- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md)
+
+Para configurar o ícone, nome da aplicação, splashscreen, id do pacote, clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) e siga `Ícone, Splashscreen e outros`.
