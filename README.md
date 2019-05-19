@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação Gitmark usando React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, React Navigation, Color, Redux, Redux-Saga, Ducks e Reactotron.
+Deploy e CI usando App Center, OneSignal, Firebase, Apple Developer, XCode e Ape Tools.
 
 Obs: Este repositório é uma cópia do [React Native - Módulo 3](https://github.com/osvaldokalvaitir/react-native-modulo3) para realização de deploy e entrega contínua.
 
@@ -68,6 +68,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Bibliotecas
 
+- [appcenter-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/appcenter-cli.md)
+
 - [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
 
 - [Babel Root Import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-plugin-root-import.md)
@@ -122,7 +124,9 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Ape Tools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/icon/apetools.md)
 
-- [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md) - Siga `Criar um app no OneSignal` para criar um app, `Chave do OneSignal` para adicionar a chave do OneSignal no projeto e `Enviar uma mensagem` para enviar uma notificação push de teste.
+- [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md) - Siga `Adicionar app` para adicionar um app, `Chave do App` para adicionar a chave do app do OneSignal no projeto e `Enviar uma mensagem` para enviar uma notificação push de teste.
+
+- [App Center](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ci-cd/app-center.md) - Siga `Adicionar app` para adicionar um app.
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
 
@@ -132,7 +136,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ###### Aplicativo iOS
 
-- [Apple Developer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md) - Siga `Criar um app no Apple Developer` para gerar o App ID e o certificado para desenvolvimento e produção.
+- [Apple Developer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md) - Siga `Adicionar app` para gerar o App ID e o certificado para desenvolvimento e produção.
 
 - [The Provisionator](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/the-provisionator.md)
 
