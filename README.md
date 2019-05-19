@@ -126,7 +126,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md) - Siga `Adicionar app` para adicionar um app, `Chave do App` para adicionar a chave do app do OneSignal no projeto e `Enviar uma mensagem` para enviar uma notificação push de teste.
 
-- [App Center](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ci-cd/app-center.md) - Siga `Adicionar app` para adicionar um app.
+- [App Center](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ci-cd/app-center.md) - Siga `Adicionar app` para adicionar um app e `Usar CodePush` para configurar o Staging e o Release.
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
 
