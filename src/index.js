@@ -1,19 +1,46 @@
-import React from "react";
+import React, { Component } from "react";
 import CodePush from "react-native-code-push";
+import OneSignal from "react-native-onesignal";
 import { Provider } from "react-redux";
 import Routes from "~/routes";
 
 import "~/config/ReactotronConfig";
 import store from "~/store";
 
-const App = () => (
-  <Provider store={store}>
-    <Routes />
-  </Provider>
-);
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    OneSignal.init("46c33d49-718b-4bb8-81f4-ff63f327316a");
+
+    OneSignal.addEventListener("received", this.onReceived);
+    OneSignal.addEventListener("opened", this.onOpened);
+    OneSignal.addEventListener("ids", this.onIds);
+  }
+
+  componentWillUnmount() {
+    OneSignal.removeEventListener("received", this.onReceived);
+    OneSignal.removeEventListener("opened", this.onOpened);
+    OneSignal.removeEventListener("ids", this.onIds);
+  }
+
+  onReceived = data => {};
+
+  onOpened = notification => {};
+
+  onIds = () => {};
+
+  render() {
+    return (
+      <Provider store={store}>
+        <Routes />
+      </Provider>
+    );
+  }
+}
 
 export default CodePush({
-  checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME;
+  checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME
 })(App);
 
 /**
