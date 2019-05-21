@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Deploy e CI usando App Center, OneSignal, Firebase, Apple Developer, XCode e Ape Tools.
+Deploy e CI usando App Center, OneSignal, Firebase, Apple Developer, XCode, GitHub e Ape Tools.
 
 Obs: Este repositório é uma cópia do [React Native - Módulo 3](https://github.com/osvaldokalvaitir/react-native-modulo3) para realização de deploy e entrega contínua.
 
@@ -124,9 +124,13 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Ape Tools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/icon/apetools.md) - Siga `Gerar Ícones e Splashscreens` para gerar os ícones para iOS e Android.
 
-- [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md) - Siga `Adicionar App` para adicionar um app, `Chave do App` para adicionar a chave do app do OneSignal no projeto e `Enviar uma Mensagem` para enviar uma notificação push de teste.
-
 - [App Center](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ci-cd/app-center.md) - Siga `Adicionar app` para adicionar um app e `Usar CodePush` para configurar o Staging e o Release.
+
+- [Git](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/git.md) - Siga `Comandos > Branches` para criar uma branch staging no GitHub.
+
+- [GitHub](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/github.md)
+
+- [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md) - Siga `Adicionar App` para adicionar um app, `Chave do App` para adicionar a chave do app do OneSignal no projeto e `Enviar uma Mensagem` para enviar uma notificação push de teste.
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
 
