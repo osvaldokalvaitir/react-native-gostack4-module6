@@ -122,9 +122,9 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Ferramentas
 
-- [Ape Tools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/icon/apetools.md)
+- [Ape Tools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/icon/apetools.md) - Siga `Gerar Ícones e Splashscreens` para gerar os ícones para iOS e Android.
 
-- [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md) - Siga `Adicionar app` para adicionar um app, `Chave do App` para adicionar a chave do app do OneSignal no projeto e `Enviar uma mensagem` para enviar uma notificação push de teste.
+- [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md) - Siga `Adicionar App` para adicionar um app, `Chave do App` para adicionar a chave do app do OneSignal no projeto e `Enviar uma Mensagem` para enviar uma notificação push de teste.
 
 - [App Center](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ci-cd/app-center.md) - Siga `Adicionar app` para adicionar um app e `Usar CodePush` para configurar o Staging e o Release.
 
@@ -136,8 +136,10 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ###### Aplicativo iOS
 
-- [Apple Developer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md) - Siga `Adicionar app` para gerar o App ID e o certificado para desenvolvimento e produção.
+- [Apple Developer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md) - Siga `Adicionar App` para gerar o App ID, `Gerar Certificado` para gerar certificado e `Criar Perfil de Provisionamento` para criar os perfis de provisionamento.
 
-- [The Provisionator](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/the-provisionator.md)
+- [Keychain Access](https://github.com/osvaldokalvaitir/projects-settings/blob/master/password/keychain-access.md) - Siga `Gerar Certificado` para gerar certificado.
 
-- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) - Siga `Ícone, Splashscreen e outros` para configurar o ícone, nome da aplicação, splashscreen e id do pacote.
+- [The Provisionator](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/the-provisionator.md) - Siga `Gerar Certificados` para gerar certificados.
+
+- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) - Siga `Configurações de Projeto > Ícone, Splashscreen e Outros` para configurar o ícone, nome da aplicação, splashscreen e id do pacote e `Configurações de Projeto > Deployment` para configurar o deployment.
