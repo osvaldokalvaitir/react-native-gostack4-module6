@@ -51,7 +51,7 @@ class Main extends Component {
         <View style={styles.content}>
           <Text style={styles.title}>Gitmark</Text>
           <Text style={styles.description}>
-            Comece adicionando alguns repositórios aos seus favoritos.
+            Comece adicionando alguns repositórios aos seus favoritos. (teste)
           </Text>
 
           <View style={styles.form}>
