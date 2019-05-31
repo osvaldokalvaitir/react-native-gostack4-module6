@@ -140,6 +140,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [keytool](https://github.com/osvaldokalvaitir/projects-settings/blob/master/password-certificate/keytool.md)
 
+- [Play Console](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/play-console.md)
+
 ###### Aplicativo iOS
 
 - [Apple Developer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md)
