@@ -126,7 +126,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [App Center](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ci-cd/app-center.md)
 
-- [Git](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/git.md) - Siga `Comandos > Branches` para criar uma branch staging no GitHub.
+- [Git](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/git.md) - Siga `Comandos > Branches` para criar uma branch staging no GitHub
 
 - [GitHub](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/github.md)
 
