@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Deploy e CI usando App Center, OneSignal, Firebase, Apple Developer, XCode, GitHub e Ape Tools.
+Deploy e CI usando App Center, OneSignal, GitHub, Ape Tools, Play Console, Firebase, XCode, Apple Developer e App Store Connect.
 
 Obs: Este repositório é uma cópia do [React Native - Módulo 3](https://github.com/osvaldokalvaitir/react-native-modulo3) para realização de deploy e entrega contínua.
 
@@ -152,4 +152,4 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [The Provisionator](https://github.com/osvaldokalvaitir/projects-settings/blob/master/password-certificate/the-provisionator.md)
 
-- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) - Siga `Configurações de Projeto > Ícone, Splashscreen e Outros` e `Configurações de Projeto > Deployment`
+- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) - Siga de `Configurações de Projeto`, os itens `Ícone, Splashscreen e Outros`, `Notificações Push`, `Deployment` e `Enviar app para a App Store Connect`
