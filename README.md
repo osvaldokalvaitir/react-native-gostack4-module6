@@ -144,6 +144,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ###### Aplicativo iOS
 
+- [App Store Connect](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/app-store-connect.md)
+
 - [Apple Developer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md)
 
 - [Keychain Access](https://github.com/osvaldokalvaitir/projects-settings/blob/master/password-certificate/keychain-access.md)
