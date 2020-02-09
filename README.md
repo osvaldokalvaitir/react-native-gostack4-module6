@@ -42,12 +42,12 @@ Obs: Este repositório é uma cópia do [React Native - Módulo 3](https://githu
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Esta é a primeira tela, onde deve ser informado um usuário e um repositório existente do GitHub.
 
 ### Favoritos
 
-![Favorites](/assets/favorites.png)
+![Favorites](/.github/assets/favorites.png)
 Nesta tela estão todos os repositórios do GitHub favoritados pelo usuário, podendo também voltar para a tela principal.
 
 ## Desenvolvimento
