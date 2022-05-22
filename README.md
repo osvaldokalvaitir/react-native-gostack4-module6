@@ -1,155 +1,74 @@
-# React Native - Módulo 6
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-modulo6/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-modulo6.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-modulo6.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-modulo6.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-modulo6.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-modulo6.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-modulo6.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - GoStack 4 Module 6
+</h3>
 
-Deploy e CI usando App Center, OneSignal, GitHub, Ape Tools, Play Console, Firebase, XCode, Apple Developer e App Store Connect.
+<p align="center">
+  :octocat: Deploy and CI using appcenter-cli, React Native Module for CodePush, react-native-onesignal, Git, GitHub, Ape Tools, App Center, OneSignal with Android app, Firebase, keytool, Play Console and with iOS app, App Store Connect, Apple Developer, Keychain Access, The Provisionator, XCode
+</p>
 
-Obs: Este repositório é uma cópia do [React Native - Módulo 3](https://github.com/osvaldokalvaitir/react-native-modulo3) para realização de deploy e entrega contínua.
+<p align="center">
+  :link: This repository is a copy of <a href="https://github.com/osvaldokalvaitir/react-native-gostack4-module3">React Native - GoStack 4 Module 3</a>
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-gostack4-module6.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-gostack4-module6.svg?color=00A83A">
 
-  - [Principal](#principal)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Favoritos](#favoritos)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+## :iphone: Demo
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+![Demo](/.github/assets/demo.gif)
 
-  - [Execução do Projeto](#execução-do-projeto)
+## :wrench: Install and run
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-gostack4-module6
 
-  - [APIs](#apis)
+# Entry in folder
+cd react-native-gostack4-module6
 
-  - [Ferramentas](#ferramentas)
+# Install deps with npm or yarn
+npm install | yarn
 
-## Capturas de Tela
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
 
-### Principal
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
-![Main](/.github/assets/main.png)
-Esta é a primeira tela, onde deve ser informado um usuário e um repositório existente do GitHub.
+Click to learn more about the tools used: [Git](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/git.md), [GitHub](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/tools/github.md), [Ape Tools](https://github.com/osvaldokalvaitir/awesome/blob/main/src/icons/apetools.md), [App Center](https://github.com/osvaldokalvaitir/awesome/blob/main/src/ci-cd/app-center.md), [OneSignal](https://github.com/osvaldokalvaitir/awesome/blob/main/src/push-notifications/onesignal/onesignal.md).
 
-### Favoritos
+Android app: [Firebase](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/firebase.md), [keytool](https://github.com/osvaldokalvaitir/awesome/blob/main/src/passwords-managers/keytool.md), [Play Console](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/play-console.md).
 
-![Favorites](/.github/assets/favorites.png)
-Nesta tela estão todos os repositórios do GitHub favoritados pelo usuário, podendo também voltar para a tela principal.
+iOS app: [App Store Connect](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/app-store-connect.md), [Apple Developer](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/apple-developer.md), [Keychain Access](https://github.com/osvaldokalvaitir/awesome/blob/main/src/passwords-managers/keychain-access.md), [The Provisionator](https://github.com/osvaldokalvaitir/awesome/blob/main/src/push-notifications/onesignal/certificates/the-provisionator.md), [XCode](https://github.com/osvaldokalvaitir/awesome/blob/main/src/ides/xcode.md) - Follow the steps `Configurações de Projeto`, the items `Ícone, Splashscreen e Outros`, `Notificações Push`, `Deployment` and `Enviar app para a App Store Connect`.
 
-## Desenvolvimento
+## :memo: License
 
-### Configuração do Ambiente
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
+---
 
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [appcenter-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/appcenter-cli.md)
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Babel Root Import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-plugin-root-import.md)
-
-- [babel-eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-eslint.md)
-
-- [color](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/color.md)
-
-- [Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/ducks.md)
-
-- [eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
-
-- [ESLint plugin for React Native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react-native.md)
-
-- [eslint-import-resolver-babel-plugin-root-import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-import-resolver-babel-plugin-root-import.md)
-
-- [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Native Module for CodePush](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-code-push.md)
-
-- [React Navigation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation.md)
-
-- [React Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-redux.md)
-
-- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
-
-- [react-native-onesignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-onesignal.md)
-
-- [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
-
-- [reactotron-redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux.md)
-
-- [reactotron-redux-saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux-saga.md)
-
-- [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
-
-- [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
-
-### APIs
-
-- **[GitHub API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/github-api.md)**
-
-  - **Rotas**
-
-    - Usuários
-
-      - Busca dados de um repositório pertencente a um usuário
-
-### Ferramentas
-
-- [Ape Tools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/icon/apetools.md)
-
-- [App Center](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ci-cd/app-center.md)
-
-- [Git](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/git.md) - Siga `Comandos > Branches` para criar uma branch staging no GitHub
-
-- [GitHub](https://github.com/osvaldokalvaitir/projects-settings/blob/master/version-control/github.md)
-
-- [OneSignal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/push-notification/onesignal.md)
-
-- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
-
-###### Aplicativo Android
-
-- [Firebase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/firebase.md)
-
-- [keytool](https://github.com/osvaldokalvaitir/projects-settings/blob/master/password-certificate/keytool.md)
-
-- [Play Console](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/play-console.md)
-
-###### Aplicativo iOS
-
-- [App Store Connect](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/app-store-connect.md)
-
-- [Apple Developer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/aple-developer.md)
-
-- [Keychain Access](https://github.com/osvaldokalvaitir/projects-settings/blob/master/password-certificate/keychain-access.md)
-
-- [The Provisionator](https://github.com/osvaldokalvaitir/projects-settings/blob/master/password-certificate/the-provisionator.md)
-
-- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) - Siga de `Configurações de Projeto`, os itens `Ícone, Splashscreen e Outros`, `Notificações Push`, `Deployment` e `Enviar app para a App Store Connect`
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
