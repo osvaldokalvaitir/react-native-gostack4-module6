@@ -57,7 +57,7 @@ react-native run-android | yarn android
 react-native run-ios | yarn ios
 ```
 
-Click to learn more about the tools used: [Git](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/git.md), [GitHub](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/tools/github.md), [Ape Tools](https://github.com/osvaldokalvaitir/awesome/blob/main/src/icons/apetools.md), [App Center](https://github.com/osvaldokalvaitir/awesome/blob/main/src/ci-cd/app-center.md), [OneSignal](https://github.com/osvaldokalvaitir/awesome/blob/main/src/push-notifications/onesignal/onesignal.md).
+Click to learn more about the tools used: [Git](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git.md), [GitHub](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/tools/github.md), [Ape Tools](https://github.com/osvaldokalvaitir/awesome/blob/main/src/icons/apetools.md), [App Center](https://github.com/osvaldokalvaitir/awesome/blob/main/src/ci-cd/app-center.md), [OneSignal](https://github.com/osvaldokalvaitir/awesome/blob/main/src/push-notifications/onesignal/onesignal.md).
 
 Android app: [Firebase](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/firebase.md), [keytool](https://github.com/osvaldokalvaitir/awesome/blob/main/src/passwords-managers/keytool.md), [Play Console](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/play-console.md).
 
